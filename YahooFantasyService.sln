@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Domain.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Service.Tests", "Service\YahooFantasy.Service.Tests\YahooFantasy.Service.Tests.csproj", "{24FEAA25-199E-46CF-8BDD-C9631F8BA866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Web.API", "WebService\YahooFantasy.Web.API\YahooFantasy.Web.API.csproj", "{297D7A81-EB9A-493E-B751-D9BD018A6B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Web.API.Tests", "WebService\YahooFantasy.Web.API.Tests\YahooFantasy.Web.API.Tests.csproj", "{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297D7A81-EB9A-493E-B751-D9BD018A6B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297D7A81-EB9A-493E-B751-D9BD018A6B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297D7A81-EB9A-493E-B751-D9BD018A6B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297D7A81-EB9A-493E-B751-D9BD018A6B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +60,7 @@ Global
 		{63BBF441-308E-4249-87A5-0C230DBAAF57} = {CD5084D7-D5ED-4746-AB25-372520C769B1}
 		{BFE60713-0C8A-4A2D-87EC-E61A75E24150} = {2837071C-0DAC-47FF-B742-DD67556DB2CC}
 		{24FEAA25-199E-46CF-8BDD-C9631F8BA866} = {2837071C-0DAC-47FF-B742-DD67556DB2CC}
+		{297D7A81-EB9A-493E-B751-D9BD018A6B2C} = {C5F5A28D-918A-4B05-9F02-7FCDD859C0A9}
+		{4B55B8B1-4B63-4C67-8668-47398BBA4EF9} = {C5F5A28D-918A-4B05-9F02-7FCDD859C0A9}
 	EndGlobalSection
 EndGlobal
