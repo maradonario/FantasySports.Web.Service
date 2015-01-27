@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Service", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Domain", "Domain\YahooFantasy.Domain\YahooFantasy.Domain.csproj", "{FCCB4F40-4BEC-424D-8BCE-16D604351566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Domain.Tests", "Domain\YahooFantasy.Domain.Tests\YahooFantasy.Domain.Tests.csproj", "{63BBF441-308E-4249-87A5-0C230DBAAF57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Service.Tests", "Service\YahooFantasy.Service.Tests\YahooFantasy.Service.Tests.csproj", "{24FEAA25-199E-46CF-8BDD-C9631F8BA866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,13 +43,23 @@ Global
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BBF441-308E-4249-87A5-0C230DBAAF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BBF441-308E-4249-87A5-0C230DBAAF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BBF441-308E-4249-87A5-0C230DBAAF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BBF441-308E-4249-87A5-0C230DBAAF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FEAA25-199E-46CF-8BDD-C9631F8BA866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566} = {CD5084D7-D5ED-4746-AB25-372520C769B1}
+		{63BBF441-308E-4249-87A5-0C230DBAAF57} = {CD5084D7-D5ED-4746-AB25-372520C769B1}
 		{BFE60713-0C8A-4A2D-87EC-E61A75E24150} = {2837071C-0DAC-47FF-B742-DD67556DB2CC}
+		{24FEAA25-199E-46CF-8BDD-C9631F8BA866} = {2837071C-0DAC-47FF-B742-DD67556DB2CC}
 		{13C45E77-CF85-46BD-A1FA-D7DA59D3FFE2} = {C5F5A28D-918A-4B05-9F02-7FCDD859C0A9}
 		{B20A3540-3CF4-4706-98AA-197C9E0DF060} = {C5F5A28D-918A-4B05-9F02-7FCDD859C0A9}
 	EndGlobalSection
