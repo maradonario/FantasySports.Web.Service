@@ -1,10 +1,10 @@
 using System.Web.Http;
-using YahooFantasy.Web.API;
+using FantasySports.Web.API;
 using WebActivatorEx;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace YahooFantasy.Web.API
+namespace FantasySports.Web.API
 {
     public class SwaggerConfig
     {

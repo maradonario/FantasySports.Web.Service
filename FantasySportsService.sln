@@ -9,14 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2837
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebService", "WebService", "{C5F5A28D-918A-4B05-9F02-7FCDD859C0A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Service", "Service\YahooFantasy.Service\YahooFantasy.Service.csproj", "{BFE60713-0C8A-4A2D-87EC-E61A75E24150}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasySports.Service", "Service\YahooFantasy.Service\FantasySports.Service.csproj", "{BFE60713-0C8A-4A2D-87EC-E61A75E24150}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566} = {FCCB4F40-4BEC-424D-8BCE-16D604351566}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Domain", "Domain\YahooFantasy.Domain\YahooFantasy.Domain.csproj", "{FCCB4F40-4BEC-424D-8BCE-16D604351566}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasySports.Domain", "Domain\YahooFantasy.Domain\FantasySports.Domain.csproj", "{FCCB4F40-4BEC-424D-8BCE-16D604351566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Domain.Tests", "Domain\YahooFantasy.Domain.Tests\YahooFantasy.Domain.Tests.csproj", "{63BBF441-308E-4249-87A5-0C230DBAAF57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasySports.Domain.Tests", "Domain\YahooFantasy.Domain.Tests\FantasySports.Domain.Tests.csproj", "{63BBF441-308E-4249-87A5-0C230DBAAF57}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566} = {FCCB4F40-4BEC-424D-8BCE-16D604351566}
 	EndProjectSection
@@ -27,12 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Service.Tests"
 		{FCCB4F40-4BEC-424D-8BCE-16D604351566} = {FCCB4F40-4BEC-424D-8BCE-16D604351566}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Web.API", "WebService\YahooFantasy.Web.API\YahooFantasy.Web.API.csproj", "{297D7A81-EB9A-493E-B751-D9BD018A6B2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasySports.Web.API", "WebService\YahooFantasy.Web.API\FantasySports.Web.API.csproj", "{297D7A81-EB9A-493E-B751-D9BD018A6B2C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BFE60713-0C8A-4A2D-87EC-E61A75E24150} = {BFE60713-0C8A-4A2D-87EC-E61A75E24150}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFantasy.Web.API.Tests", "WebService\YahooFantasy.Web.API.Tests\YahooFantasy.Web.API.Tests.csproj", "{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasySports.Web.API.Tests", "WebService\YahooFantasy.Web.API.Tests\FantasySports.Web.API.Tests.csproj", "{4B55B8B1-4B63-4C67-8668-47398BBA4EF9}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BFE60713-0C8A-4A2D-87EC-E61A75E24150} = {BFE60713-0C8A-4A2D-87EC-E61A75E24150}
 		{297D7A81-EB9A-493E-B751-D9BD018A6B2C} = {297D7A81-EB9A-493E-B751-D9BD018A6B2C}
