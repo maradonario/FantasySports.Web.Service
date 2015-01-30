@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace YahooFantasy.Service.Tests
+namespace FantasySports.Service.Tests
 {
     [TestClass]
     public class UnitTest1
