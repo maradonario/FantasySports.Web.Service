@@ -32,5 +32,10 @@ namespace FantasySports.Web.API
                 }
             }
         }
+
+        internal static IAuthorizationService AuthorizationService()
+        {
+            return new AuthorizationService();
+        }
     }
 }

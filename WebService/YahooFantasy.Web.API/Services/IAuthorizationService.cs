@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FantasySports.Web.API.Services
+namespace FantasySports.Web.API
 {
     internal interface IAuthorizationService
     {

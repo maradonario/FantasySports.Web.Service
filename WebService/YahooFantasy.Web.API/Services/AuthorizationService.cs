@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FantasySports.Web.API.Services
+namespace FantasySports.Web.API
 {
     internal sealed class AuthorizationService : IAuthorizationService
     {
