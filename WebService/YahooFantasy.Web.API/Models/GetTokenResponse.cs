@@ -6,6 +6,7 @@ namespace FantasySports.Web.API
     [DataContract(Name="GetTokenRequest")]
     public class GetTokenResponse
     {
+        public string FormHtml { get; set; }
         [DataMember(Name = "TokenSecret")]
         public string TokenSecret { get; set; }
 

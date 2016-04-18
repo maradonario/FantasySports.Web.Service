@@ -88,6 +88,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YahooFantasy.Web.API\FantasySports.Web.API.csproj">
+      <Project>{297d7a81-eb9a-493e-b751-d9bd018a6b2c}</Project>
+      <Name>FantasySports.Web.API</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

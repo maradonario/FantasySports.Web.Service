@@ -12,18 +12,19 @@ using System.Web.Http;
 
 namespace FantasySports.Web.API.Services
 {
-    internal static class WebApiController
+    public class WebApiController : IWebClient
     {
-        public static TResponse Get<TRequest, TResponse>(string url, TRequest requestData, IRequestContext requestContext)
+        public TResponse Get<TRequest, TResponse>(string url, TRequest requestData, IRequestContext requestContext)
             where TRequest : class
             where TResponse : class
         {
-            var queryString = BuildQueryString(url, requestContext);
+            var queryString = BuildQueryString(url, requestData);
 
 
             using (var httpClient = new HttpClient())
             {
                 Task<HttpResponseMessage> httpRequest;
+                BuildHttpHeaders(httpClient, requestContext);
 
                 try
                 {
@@ -39,7 +40,7 @@ namespace FantasySports.Web.API.Services
             }
         }
 
-        public static TResponse Get<TResponse>(string url, IRequestContext context)
+        public TResponse Get<TResponse>(string url, IRequestContext context)
             where TResponse : class
         {
             using (var httpClient = new HttpClient())
