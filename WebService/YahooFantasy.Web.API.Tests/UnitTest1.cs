@@ -11,13 +11,9 @@ namespace FantasySports.Web.API.Tests
         public void TestMethod1()
         {
             var service = new AuthorizationService(new WebApiController());
-            var result = service.GetToken(
-                new GetTokenRequest
-                {
+            var result = service.GetToken();
 
-                },
-                new 
-                );
+            string r = result.FormHtml;
         }
     }
 }

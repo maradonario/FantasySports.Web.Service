@@ -6,7 +6,7 @@ using System.Web;
 
 namespace FantasySports.Web.API
 {
-    public class GetTokenRequest
+    public class GetTokenRequest : IRequestContext
     {
         [JsonProperty("client_id")]
         public string ClientId { get; set; }
@@ -19,5 +19,7 @@ namespace FantasySports.Web.API
 
         [JsonProperty("language")]
         public string Language { get; set; }
+
+        public Guid RequestId { get; set;  }
     }
 }

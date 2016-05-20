@@ -8,6 +8,6 @@ namespace FantasySports.Web.API
 {
     internal interface IAuthorizationService
     {
-        GetTokenResponse GetToken(GetTokenRequest request, IRequestContext context);
+        GetTokenResponse GetToken();
     }
 }

@@ -13,7 +13,7 @@ namespace FantasySports.Web.API
         {
             _webClient = webclient;
         }
-        public GetTokenResponse GetToken(GetTokenRequest request, IRequestContext context)
+        public GetTokenResponse GetToken()
         {
             var requestToken = new GetTokenRequest
             {
@@ -23,7 +23,7 @@ namespace FantasySports.Web.API
                 Language = "en-us"
             };
             string url = "https://api.login.yahoo.com/oauth2/request_auth";
-            var response = _webClient.Get<GetTokenRequest, GetTokenResponse>(url, requestToken, context);
+            var response = _webClient.Get<GetTokenRequest, GetTokenResponse>(url, requestToken, requestToken);
             return response;
         }
 
